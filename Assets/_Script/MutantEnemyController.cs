@@ -48,9 +48,9 @@ public class MutantEnemyController : MonoBehaviour
             }
         }
 
-        //Animation control
-        Anim.SetBool("IsAttack", IsTargetInAttackRadius());
-        Anim.SetBool("IsWalking", IsWalking());
+        ////Animation control
+        //Anim.SetBool("IsAttack", IsTargetInAttackRadius());
+        //Anim.SetBool("IsWalking", IsWalking());
     }
 
     private void Attack()
