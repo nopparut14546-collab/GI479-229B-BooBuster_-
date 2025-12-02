@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class HPBar : MonoBehaviour
 {
-    public Health health;
+    public PlayerHealth health;
     public Image hpFill;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
