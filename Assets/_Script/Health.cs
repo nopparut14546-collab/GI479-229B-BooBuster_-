@@ -25,6 +25,7 @@ public class Health : MonoBehaviour
             if (IsDead())
             {
                 OnDead?.Invoke();
+                Destroy(gameObject);
             }
         }
     }
